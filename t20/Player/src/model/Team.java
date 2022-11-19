@@ -1,6 +1,6 @@
 package model;
 
-public enum TEAM {
+public enum Team {
     INDIA,
     AUSTRALIA,
     ENGLAND,

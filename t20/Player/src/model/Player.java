@@ -2,6 +2,7 @@ package model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
 @Builder
@@ -10,15 +11,16 @@ import lombok.*;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Player {
+    private String uniqueId;
     private String firstName;
     private String middleName;
     private String lastName;
     private Date dob;
-    private Date dODebut;
-    private Date lastMatch;
-    private FORMAT format;
+    private Long debut;
+    private Long lastMatch;
+    private Format format;
     private PlayerType type;
-    private TEAM nationalTeam;
+    private Team nationalTeam;
     private String battingStyle;
     private String bowlingStyle;
 }
