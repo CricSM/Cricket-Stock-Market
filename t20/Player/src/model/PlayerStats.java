@@ -13,5 +13,5 @@ public class PlayerStats {
     private String battingStrikeRate;
     private String bowlingStrikeRate;
     private String bowlingEconomy;
-    private FORMAT format;
+    private Format format;
 }
