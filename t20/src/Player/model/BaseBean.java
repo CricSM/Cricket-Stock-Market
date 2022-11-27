@@ -1,4 +1,4 @@
-package model;
+package Player.model;
 
 public class BaseBean {
     private String id;

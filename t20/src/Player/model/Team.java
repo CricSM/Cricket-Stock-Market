@@ -1,4 +1,4 @@
-package model;
+package Player.model;
 
 public enum Team {
     INDIA,
