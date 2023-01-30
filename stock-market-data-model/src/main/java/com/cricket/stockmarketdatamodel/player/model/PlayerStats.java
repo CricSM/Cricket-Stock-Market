@@ -1,4 +1,4 @@
-package Player.model;
+package com.cricket.stockmarketdatamodel.player.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package User.model;
+package com.cricket.stockmarketdatamodel.user.model;
 
 public class Address {
     private String line1;

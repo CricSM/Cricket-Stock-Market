@@ -1,1 +1,9 @@
 rootProject.name = 'stock-market'
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+include("stock-market-data-model")

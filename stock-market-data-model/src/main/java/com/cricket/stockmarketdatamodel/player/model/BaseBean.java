@@ -1,4 +1,4 @@
-package Player.model;
+package com.cricket.stockmarketdatamodel.player.model;
 
 public class BaseBean {
     private String id;

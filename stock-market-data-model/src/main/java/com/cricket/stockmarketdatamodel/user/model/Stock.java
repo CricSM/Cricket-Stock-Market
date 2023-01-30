@@ -1,6 +1,6 @@
-package User.model;
+package com.cricket.stockmarketdatamodel.user.model;
 
-import Player.model.BaseBean;
+import com.cricket.stockmarketdatamodel.player.model.BaseBean;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
