@@ -6,7 +6,6 @@ import lombok.*;
 import java.util.List;
 
 @Data
-@Builder
 @JsonIgnoreProperties(ignoreUnknown = true)
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,7 +18,7 @@ public class Player extends BaseBean{
     private Long debutDate;
     private Long lastMatchDate;
     private List<Format> format;
-    private PlayerType type;
+    private PlayerType playerType;
     private List<PlayerTeamStats> teamBasisStats;
     private String battingStyle;
     private String bowlingStyle;

@@ -8,10 +8,10 @@ import lombok.Data;
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class PlayerStats {
-    private String matchesPlayed;
-    private String battingAverage;
-    private String battingStrikeRate;
-    private String bowlingStrikeRate;
-    private String bowlingEconomy;
+    private Long matchesPlayed;
+    private Double battingAverage;
+    private Double battingStrikeRate;
+    private Double bowlingStrikeRate;
+    private Double bowlingEconomy;
     private Format format;
 }
